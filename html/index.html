@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="icon" href="/IMG/capy (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+
+         <div class="contenedor__todo">
+            <div class="caja-trasera">
+                <div class="caja-trasera-login">
+                    <h3>¿Ya tienes una Cuenta?</h3>
+                    <p>Inicia Sesion para Entrar en la Pagina</p>
+                    <button id="btn__iniciar-sesion" class="iniciar-sesion">Iniciar Sesion</button>
+                </div>
+                <div class="caja-trasera-register">
+                    <h3>¿Aun no tienes una Cuenta?</h3>
+                    <p>Registrate para que Puedad Iniciar Sesion</p>
+                    <button id="btn__registrarse" class="iniciar-sesion" type="submit">Registrarse</button>
+                </div>
+            </div>
+
+            <div class="contenedor-login-register">
+
+                <form action="" class="formulario-login">
+
+                    <h2>Iniciar Sesion</h2>
+                    <input type="email" placeholder="Correo Electronico" required>
+                    <input type="password" placeholder="Contraseña" required>
+                    <button type="submit">Entrar</button>
+
+                </form>
+
+                <form action="" class="formulario-register">
+
+                     <h2>Registrarse</h2>
+                     <input type="text" placeholder="Nombre Completo" required>
+                     <input type="email" placeholder="Correo Electronico" required>
+                     <input type="text" placeholder="Usuario" required>
+                     <input type="password" placeholder="Contraseña" required>
+                     <button type="submit">Registrarse</button>
+
+                </form>
+
+            </div>
+
+         </div>
+
+    </main>
+    
+</body>
+<script src="/js/login.js"></script>
+</html>

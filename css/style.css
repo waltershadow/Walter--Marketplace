@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+}
+body{
+  background: url(/IMG/fondo.jpg);
+  background-attachment: fixed;
+}
+.navba{
+  background-color: burlywood;
+  height: 100px;
+}
+.container-fluid{
+  float: left;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.form-control{
+  background: darkgreen;
+  color: white;
+}
+.icono{
+  float: left;
+  position: relative;
+}
+.logo{
+  float: left;
+  padding: 0;
+  margin-left: 200px;
+}
+.chat{
+  float: left;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.cuenta{
+  float: left;
+  position: relative;
+  margin-left: 15px;
+}
+.chat i{
+  font-size: 55px;
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  background-color: darkgreen;
+  color: burlywood;
+  border-radius: 100%;
+  border: 0;
+}
+.btn i{
+  font-size: 25px;
+}
+.menu{
+  padding-right: 0;
+  list-style-type: none;
+  font-size: x-large;
+  height: 900px;
+  position: sticky;
+}
+aside{
+  padding-right: 0;
+  float: left;
+  background-color: burlywood;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 900px;
+}
+main{
+  float: right;
+}
+.Marketplace{
+  padding: 1rem;
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent; 
+  width: 350px;
+  height: 45px;
+  margin-top: 10px;
+  list-style-type: none;
+  font-size:x-large;
+}
+.Marketplac{
+  padding: 1rem;
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent; 
+  width: 350px;
+  height: 45px;
+  margin-top: 10px;
+  font-size:x-large;
+  list-style-type: none;
+}
+.Marketplac .btn-M{
+  font-size:x-large;
+}
+.btn-Explo{
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: x-large;
+}
+.btn-M{
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-Publi{
+  padding: 9px;
+  background-color: blueviolet;
+  cursor: pointer;
+  font-size: x-large;
+  border-radius:1rem;
+}
+.btn-Publi:hover{
+  color:#3F2212;
+}
+.Marketplace i{
+  padding: 9px;
+  font-size: x-large;
+  background-color:blueviolet;
+  margin: 10px;
+  border-radius: 100%;
+}
+.Marketplac i{
+  padding: 9px;
+  font-size: x-large;
+  background-color: darkgreen;
+  margin: 10px;
+  border-radius: 100%;
+}
+.Category{
+  padding: 1rem;
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent; 
+  width: 350px;
+  height: 45px;
+  margin-top: 10px;
+  font-size:x-large;
+  list-style-type: none;
+}
+.Categoria{
+  border: 0;
+  background-color: #E0ECFF;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: x-large;
+}
+.Categoria i{
+  font-size: 40px;
+  margin-right: 10px;
+  color: darkgreen;
+}
+.Cat{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.contenedor-productos{
+  padding: 2rem;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr)
+}
+.producto-imagen{
+  margin-left: 30px;
+  border-radius: 1rem;
+  cursor: cell;
+}
+.producto-detalles{
+  padding: 1rem;
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.producto-titulo{
+  text-align: center;
+  margin: center;
+  padding: 5px;
+  margin-left: 50px;
+  background-color: #3F2212;
+  border-radius: 1rem;
+  cursor:cell;
+}
+.producto-precio{
+  padding: 5px;
+  margin-left: 30px;
+  color: aqua;
+  text-align: center;
+}
+.producto-agregar{
+  margin: 0;
+  background-color: burlywood;
+  border-radius: 1rem;
+  transition: background-color .2s, color .2s;
+}
+.producto-agregar:hover{
+  background-color: #3F2212;
+  color: white;
+}
+.btn-toolbar{
+  padding: 50px;
+  margin-left: 365px;
+}
+.bn {
+  margin-left: 15px;
+  width: 42px;
+  height: 38px;
+  background-color: burlywood;
+  transition: background-color .2s, color .2s;
+}
+.bn:hover{
+  background-color: #3F2212;
+  color: white;
+}
+.wrapper{
+  float: left;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+.boton-categoria.active{
+  color:darkgreen;
+text-decoration:underline;
+}
+.boton-categoria:hover,.btn-M:hover{
+  color: #3F2212;
+}
+/*font-family: 'Press Start 2P', cursive;*/
