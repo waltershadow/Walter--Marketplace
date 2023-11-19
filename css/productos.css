@@ -10,8 +10,9 @@
     background-attachment: fixed;
   }
   .navba{
-    background-color: burlywood;
-    height: 100px;
+    background-color: rgb(161, 133, 95);
+    border: 2px dashed rgb(0, 0, 0);
+    height: 160px;
   }
   .container-fluid{
     float: left;
@@ -29,8 +30,8 @@
   .logo{
     float: left;
     padding: 0;
-    right: 130px;
-    margin-left: 200px;
+    margin-top: 4px;
+    margin-left: 15px;
   }
   .chat{
     float: left;
@@ -40,7 +41,7 @@
     margin-left: 250px;
   }
   .cuenta{
-    float: right;
+    float: left;
     position: relative;
     margin-left: 15px;
   }
@@ -60,29 +61,23 @@
   .btn i{
     font-size: 25px;
   }
-  .wrapper{
-    padding-right: 0;
-    list-style-type: none;
-    font-size: x-large;
-    height: 900px;
-    top: 100px;
-    position: absolute;
-  }
   .menu{
     padding-right: 0;
     list-style-type: none;
     font-size: x-large;
     height: 900px;
-    position: absolute;
+    position: sticky;
   }
   aside{
     padding-right: 0;
-    float: left;
-    background-color: burlywood;
+    float: right;
+    background-color: rgb(161, 133, 95);
+    border: 2px dashed rgb(0, 0, 0);
     color: white;
-    position: sticky;
-    top: 0;
-    height: 900px;
+    position: static;
+    top: 20;
+    height: 1000px;
+    right: 100px;
   }
   main{
     float: right;
@@ -236,9 +231,9 @@
     color: white;
   }
   .wrapper{
-    float: left;
+    float: right;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 420px 1fr;
   }
   .boton-categoria.active{
     color:darkgreen;
@@ -249,134 +244,68 @@
   }
   /*font-family: 'Press Start 2P', cursive;*/
   
-  /* ventas*/
-  html {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: 'Cabin', sans-serif;
+  .carro{
+    margin-left: 25px;
   }
-  
-  .main-container {
-    width: 120%;
-    min-height: 400px;
-    margin-top: 6%;
-    text-align: center;
+
+  .Publi{
+    color: black;
   }
-  
-  .input-container {
-    text-align: center;
-    margin: 20px auto;
-    padding: 20px;
-    overflow: hidden;
+
+  .estados{
+    padding: 0.4rem;
+    color: black;
+    margin-top: 10px;
+  }
+
+  .nose{
+    padding: 0.4rem;
+  }
+
+  .r-{
+  color: black;
+  }
+
+  .usuario{
+    float: left;
     position: relative;
-    color: rgb(255, 253, 253);
-    cursor: pointer;
-    border: 2px dashed rgb(241, 238, 235);
-    background-color: rgb(3, 24, 3);
-    border-radius: 20px;
-    display: inline-block;
+    margin-left: -2px;
+    margin-top: -40px;
+    border-radius: 100%;
   }
-  
-  .input-container [type=file] {
-    cursor: inherit;
-    display: block;
-    font-size: 999px;
-    filter: alpha(opacity=0);
-    min-height: 100%;
-    min-width: 100%;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    text-align: right;
-    top: 0;
-  }
-  
-  .preview-container {
-    margin: 0 auto;
-    width: 750px;
-    min-height: 300px;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 4px;
-  }
-  
-  .preview-container > img {
-    margin: 0;
-    width: 100%;
+  .clown{
+    padding: 0.4rem;
+    margin-top: 20px;
+    margin-left: -40px;
   }
 
-
- /* formulario*/
-
-  .formulario {
-    width: 300px; /* Ancho del formulario */
-    margin: 20px auto; /* Centra el formulario en la página */
-}
-
-label {
-  display: block; /* Muestra cada etiqueta en una línea separada */
-  margin-bottom: 5px; /* Margen inferior para separar las etiquetas de los cuadros de texto */
-  color: #fdfbfb; /* Color de la letra de la etiqueta */
-  margin-left: 40px; /* Mover hacia la derecha */
-}
-
-  .Nombre{
-    width: 200px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
-    margin-bottom: 10px; /* Margen inferior para separar los cuadros de texto */
-    font-size: 14px; /* Tamaño de la fuente del cuadro de texto */
-    color: #333; /* Color de la letra del cuadro de texto */
-    margin: -10px 0 0 40px;
-    margin-bottom: 0px; /* Mover hacia abajo */
-    
+  .E{
+    margin-top: 75px;
+    margin-left: 40px;
   }
 
-  .Precio{
-    width: 200px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
-    margin-bottom: 10px; /* Margen inferior para separar los cuadros de texto */
-    font-size: 14px; /* Tamaño de la fuente del cuadro de texto */
-    color: #333; /* Color de la letra del cuadro de texto */
-    margin-left: 40px; /* Mover hacia la derecha */
-    margin-right: 40px; /* Mover hacia la izquierda */
-    margin-bottom: 0px; /* Mover hacia abajo */
-    margin-top: 1px; /* Mover hacia arriba */
-  }
-
-  .categoria{
-    width: 200px; /* Ancho del cuadro de texto */
-    height: 30px; /* Altura del cuadro de texto */
-    margin-bottom: 10px; /* Margen inferior para separar los cuadros de texto */
-    font-size: 14px; /* Tamaño de la fuente del cuadro de texto */
-    color: #333; /* Color de la letra del cuadro de texto */
-    margin-left: 40px; /* Mover hacia la derecha */
-    margin-right: 40px; /* Mover hacia la izquierda */
-    margin-bottom: 20px; /* Mover hacia abajo */
-    margin-top: 1px; /* Mover hacia arriba */
-  }
-
-  .Descripcion{
-    width: 270px; /* Ancho del cuadro de texto */
-    height: 80px; /* Altura del cuadro de texto */
-    margin-bottom: 10px; /* Margen inferior para separar los cuadros de texto */
-    font-size: 14px; /* Tamaño de la fuente del cuadro de texto */
-    color: #333; /* Color de la letra del cuadro de texto */
-    margin-left: 240px; /* Mover hacia la derecha */
-    margin-right: 40px; /* Mover hacia la izquierda */
-    margin-bottom: 20px; /* Mover hacia abajo */
-    margin-top: 1px; /* Mover hacia arriba */
-   
-    
-
-  }
-
-  .Subir {
-    padding: 10px 20px; /* Ajusta el relleno del botón para cambiar su tamaño */
+  .Epa {
+    padding: 10px 30px; /* Ajusta el relleno del botón para cambiar su tamaño */
     font-size: 16px; /* Cambia el tamaño de la fuente del botón */
     position: absolute; /* Permite posicionar el botón de manera absoluta */
-    top: 100%; /* Ubica el botón en la mitad superior de su contenedor */
-    left: 60%; /* Ubica el botón en la mitad izquierda de su contenedor */
+    top: 110%; /* Ubica el botón en la mitad superior de su contenedor */
+    left: 90%; /* Ubica el botón en la mitad izquierda de su contenedor */
     transform: translate(-50%, -50%); /* Centra el botón en relación con su contenedor */
-    background-color: rgb(3, 24, 3);
+    background-color: rgb(4, 68, 4);
+}
+
+  .Mensaje {
+    padding: 10px 30px; /* Ajusta el relleno del botón para cambiar su tamaño */
+    font-size: 16px; /* Cambia el tamaño de la fuente del botón */
+    position: absolute; /* Permite posicionar el botón de manera absoluta */
+    top: 35%; /* Ubica el botón en la mitad superior de su contenedor */
+    left: 90%; /* Ubica el botón en la mitad izquierda de su contenedor */
+    transform: translate(-50%, -50%); /* Centra el botón en relación con su contenedor */
+    background-color: rgb(4, 68, 4);
+}
+
+.carros{
+    padding: 2rem;
+    margin-left: 390px;
+    margin-top: 150px;
 }

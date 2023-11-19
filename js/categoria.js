@@ -3,7 +3,7 @@ const productos = [
     {
         id: "Producto-01",
         titulo: "Miata",
-        imagen: "/IMG/KP4weQ6N-ZARCySKcmi-(edit)2-RofxodyW-h.jpg",
+        imagen: "/IMG/KP4weQ6N-ZARCySKcmi-(edit)2-RofxodyW-h.jpg" ,
         categoria: {
             nombre: "Vehiculos",
             id: "vehiculos"
@@ -174,7 +174,7 @@ function cargarProductos(productosElegidos){
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}" width="256" height="256"></img>
+            <img class="producto-imagen"  src="${producto.imagen}" alt="${producto.titulo}" width="256" height="256"></img>
             <div class="producto-detalles">
             <h3 class="producto-titulo">${producto.titulo}</h3>
             <p class="producto-precio">$${producto.precio}</p>
