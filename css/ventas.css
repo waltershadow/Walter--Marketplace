@@ -10,8 +10,8 @@
     background-attachment: fixed;
   }
   .navba{
-    background-color: burlywood;
-    height: 100px;
+    background-color: rgb(161, 133, 95);
+    height: 160px;
   }
   .container-fluid{
     float: left;
@@ -29,8 +29,8 @@
   .logo{
     float: left;
     padding: 0;
-    right: 130px;
-    margin-left: 200px;
+    margin-top: 4px;
+    margin-left: 15px;
   }
   .chat{
     float: left;
@@ -40,7 +40,7 @@
     margin-left: 250px;
   }
   .cuenta{
-    float: right;
+    float: left;
     position: relative;
     margin-left: 15px;
   }
@@ -65,7 +65,7 @@
     list-style-type: none;
     font-size: x-large;
     height: 900px;
-    top: 100px;
+    top: 150px;
     position: absolute;
   }
   .menu{
@@ -78,7 +78,7 @@
   aside{
     padding-right: 0;
     float: left;
-    background-color: burlywood;
+    background-color: rgb(161, 133, 95);
     color: white;
     position: sticky;
     top: 0;
@@ -99,15 +99,10 @@
     font-size:x-large;
   }
   .Marketplac{
-    padding: 1rem;
-    border: 0;
-    background-color: #E0ECFF;
-    background-color: transparent; 
-    width: 350px;
-    height: 45px;
-    margin-top: 10px;
-    font-size:x-large;
-    list-style-type: none;
+    padding: 9px;
+    font-size: x-large;
+    margin: 10px;
+    border-radius: 100%;
   }
   .Marketplac .btn-M{
     font-size:x-large;
